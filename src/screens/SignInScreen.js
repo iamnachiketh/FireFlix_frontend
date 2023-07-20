@@ -20,7 +20,7 @@ function SignInScreen() {
 
    const callapi = async ()=>{
 
-   await fetch('http://localhost:3001/login', { method: 'POST',
+   await fetch('https://fireflixbackend-production.up.railway.app/login', { method: 'POST',
     headers: {
       'Content-Type':
           'application/json;charset=utf-8'

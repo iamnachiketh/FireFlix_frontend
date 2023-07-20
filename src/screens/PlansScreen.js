@@ -18,7 +18,7 @@ function PlansScreen({emailReg}) {
   
    const callapi = ()=>{
     console.log('hello its in side fetch api of planscreen');
-     fetch('http://localhost:3001/user/subscribe', { method: 'POST',
+     fetch('https://fireflixbackend-production.up.railway.app/user/subscribe', { method: 'POST',
 
     headers: {
       'Content-Type':

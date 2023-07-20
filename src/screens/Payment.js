@@ -12,7 +12,7 @@ const Setlogin=()=>{
 
  const callAPI= async ()=>{
   console.log('this is payment api',type,props.email);
-   await fetch('http://localhost:3001/user/payment', { method: 'POST',
+   await fetch('https://fireflixbackend-production.up.railway.app/user/payment', { method: 'POST',
     headers: {
       'Content-Type':
           'application/json;charset=utf-8'

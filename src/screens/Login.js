@@ -18,7 +18,7 @@ const [signup,setSignup]=useState(false);
 Axios.defaults.withCredentials = true;
 
  useEffect(()=>{
-  Axios.get("http://localhost:3001/login").then((response)=>{
+  Axios.get("https://fireflixbackend-production.up.railway.app/login").then((response)=>{
 console.log(response);
   }).catch((err)=>{
     console.log(err);

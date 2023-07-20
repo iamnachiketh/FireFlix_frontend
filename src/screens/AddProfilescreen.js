@@ -16,7 +16,7 @@ function AddProfilescreen() {
   const register= () =>{
     
     //console.log('its register api')
-    Axios.post('http://localhost:3001/register',{
+    Axios.post('https://fireflixbackend-production.up.railway.app/register',{
     email:emailReg,
     username:nameReg,
     userpassword:passwordReg,
